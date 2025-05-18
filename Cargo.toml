@@ -3,4 +3,12 @@ name = "hasher"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "hasher"
+path = "src/main.rs"
+
+[lib]
+name = "hasher"
+path = "src/lib.rs"
+
 [dependencies]

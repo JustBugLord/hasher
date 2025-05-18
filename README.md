@@ -14,10 +14,12 @@ My main goals for this project are:
 - To understand hashing algorithms
 - Realize them in a way that would be pleasant to look at
 
-## Building for source
+## Building from source
 
 ```sh
 git clone https://github.com/JustBugLord/hasher.git
 cd hasher
 cargo build
 ```
+
+Apache License 2.0
