@@ -3,5 +3,11 @@
 #[derive(Debug)]
 pub enum HashError {
     AlgorithmNotFound,
-    HashingError
+    HashingError,
+    FileMetadataError,
+    FileReadError,
+    FileNotFound,
+    FileOpenError,
+    FileNameReadError,
+    DirEntryError
 }
