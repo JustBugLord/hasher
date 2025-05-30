@@ -14,7 +14,7 @@ use std::str::FromStr;
 /// use hasher::algorithms::{HashAlgorithm, HashFrom};
 ///
 /// let algorithm = HashAlgorithm::from_str("SHA256").unwrap();
-/// let digest = algorithm.hash("hello world");
+/// let hash = algorithm.hash("hello world");
 /// ```
 #[derive(Debug, Clone, Copy, Eq, PartialEq, Hash)]
 pub enum HashAlgorithm {
